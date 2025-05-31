@@ -53,6 +53,7 @@
     display: flex;
     justify-content: space-between !important;
     height: 70px;
+    z-index:9999;
     right: 0px;
     width: 100%;
     position: fixed;
@@ -381,7 +382,7 @@
   }
   #responsive-container {
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
 
     max-width: 100% !important;
     width: 100vw !important;
@@ -432,11 +433,14 @@
     display: flex;
     align-items: center;
     gap: 10px;
+   
+    top:20px;
   }
   .right-mobile {
     display: flex;
     align-items: center;
     gap: 5px;
+    align-self: flex-end;
     margin-right: 10px;
   }
   .resp-search {
