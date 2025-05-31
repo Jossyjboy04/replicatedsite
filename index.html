@@ -8,6 +8,7 @@
     <meta name="author" content="Joseph" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="css/styles.css" />
+    <link rel="stylesheet" href="css/style.css" />
 
     <link
       rel="stylesheet"
@@ -18,6 +19,27 @@
   <body>
     <header>
       <nav>
+        <div id="responsive-container">
+          <div class="left left-mobile">
+            <details>
+              <summary></summary>
+              <a class="a" href="#">Home</a>
+              <a class="a" href="#">About</a>
+              <a class="a" href="#">Services</a>
+            </details>
+
+            <h1>allrecipes<i class="fa fa-spoon"></i></h1>
+          </div>
+          <div class="right right-mobile">
+            <i class="fa fa-search resp-search"></i>
+            <div class="did"></div>
+            <a href="#" class="login"
+              ><i class="fa fa-user-circle"></i>Log In</a
+            >
+            <div class="did"></div>
+            <a href="#" class="login"><i class="fa fa-heart"></i></a>
+          </div>
+        </div>
         <div class="container">
           <div id="navbar1">
             <h1>allrecipes<i class="fa fa-spoon"></i></h1>
@@ -53,27 +75,241 @@
           </div>
           <div id="navbar2">
             <div id="link1">
-              <a href="#" class="lists">dinners</a>
-
-              <a href="#" class="lists">meals</a>
-
-              <a href="#" class="lists">ingredients</a>
-
-              <a href="#" class="lists">occasions</a>
-
-              <a href="#" class="lists">cuisines</a>
-
-              <a href="#" class="lists">kitchen tips</a>
-
-              <a href="#" class="lists">news</a>
-
-              <a href="#" class="lists">features</a>
-
-              <a href="#" class="lists">about us</a>
-            </div>
-
-            <div id="link2">
-              <a href="#" id="list2" class="lists">get the magazine</a>
+              <div class="link-cont">
+                <div class="first-link1">
+                  <a class="food-link ffl" href="#">DINNERS</a>
+                  <div class="doi">
+                    <span class="dinner-link j"
+                      ><a href="#" class="em a">5-Ingredients Dinners</a></span
+                    >
+                    <span class="dinner-link a"
+                      ><a href="#" class="em a">One-Pot Meals</a></span
+                    >
+                    <span class="dinner-link b"
+                      ><a href="#" class="em b">Quick&Easy</a></span
+                    >
+                    <span class="dinner-link c"
+                      ><a href="#" class="em c">30-Minute Meals</a></span
+                    >
+                    <span class="dinner-link d"
+                      ><a href="#" class="em d">Family Dinners</a></span
+                    >
+                    <span class="dinner-link e"
+                      ><a href="#" class="em e">Soups,Stews&Chili</a></span
+                    >
+                    <span class="dinner-link f"
+                      ><a href="#" class="em f">Comfort Food</a></span
+                    >
+                    <span class="dinner-link g"
+                      ><a href="#" class="em g">Main Dishes</a></span
+                    >
+                    <span class="dinner-link h"
+                      ><a href="#" class="em h">Sheet Pan Dinners</a></span
+                    >
+                    <span class="dinner-link i"
+                      ><a href="#" class="em embold i">VIEW ALL</a></span
+                    >
+                  </div>
+                </div>
+                <div class="first-link1">
+                  <a class="food-link sfl" href="#">MEALS</a>
+                  <div class="doi">
+                    <span class="meal-link"
+                      ><a href="#" class="em">Breakfast&Brunch</a></span
+                    >
+                    <span class="meal-link"
+                      ><a href="#" class="em">Lunch</a></span
+                    >
+                    <span class="meal-link"
+                      ><a href="#" class="em">Healthy</a></span
+                    >
+                    <span class="meal-link"
+                      ><a href="#" class="em">Appetizers&Snacks</a></span
+                    >
+                    <span class="meal-link"
+                      ><a href="#" class="em">Salads</a></span
+                    >
+                    <span class="meal-link"
+                      ><a href="#" class="em">Side Dishes</a></span
+                    >
+                    <span class="meal-link"
+                      ><a href="#" class="em">Soups</a></span
+                    >
+                    <span class="meal-link"
+                      ><a href="#" class="em">Bread</a></span
+                    >
+                    <span class="meal-link"
+                      ><a href="#" class="em">Drinks</a></span
+                    >
+                    <span class="meal-link"
+                      ><a href="#" class="em">Desserts</a></span
+                    >
+                    <span class="meal-link"
+                      ><a href="#" class="em embold">VIEW ALL</a></span
+                    >
+                  </div>
+                </div>
+                <div class="first-link1">
+                  <a class="food-link tfl" href="#">INGREDIENTS</a>
+                  <div class="doi">
+                    <span class="ingredient"
+                      ><a href="#" class="em">Chicken</a></span
+                    >
+                    <span class="ingredient"
+                      ><a href="#" class="em">Beef</a></span
+                    >
+                    <span class="ingredient"
+                      ><a href="#" class="em">Pork</a></span
+                    >
+                    <span class="ingredient"
+                      ><a href="#" class="em">Seafood</a></span
+                    >
+                    <span class="ingredient"
+                      ><a href="#" class="em">Pasta</a></span
+                    >
+                    <span class="ingredient"
+                      ><a href="#" class="em">Fruits</a></span
+                    >
+                    <span class="ingredient"
+                      ><a href="#" class="em">Vegetables</a></span
+                    >
+                    <span class="ingredient"
+                      ><a href="#" class="em embold">VIEW ALL</a></span
+                    >
+                  </div>
+                </div>
+                <div class="first-link1">
+                  <a class="food-link fofl" href="#">OCCASIONS</a>
+                  <div class="doi">
+                    <span class="occasion"
+                      ><a href="#" class="em">Memorial Day Recipes</a></span
+                    >
+                    <span class="occasion"
+                      ><a href="#" class="em">Father's Day Recipes</a></span
+                    >
+                    <span class="occasion"
+                      ><a href="#" class="em">Juneteenth</a></span
+                    >
+                    <span class="occasion"
+                      ><a href="#" class="em embold">VIEW ALL</a></span
+                    >
+                  </div>
+                </div>
+                <div class="first-link1">
+                  <a class="food-link fifl" href="#">CUISINES</a>
+                  <div class="doi">
+                    <span class="cuisine"
+                      ><a href="#" class="em a">Mexican</a></span
+                    >
+                    <span class="cuisine"
+                      ><a href="#" class="em">Italian</a></span
+                    >
+                    <span class="cuisine"
+                      ><a href="#" class="em">Chinese</a></span
+                    >
+                    <span class="cuisine"
+                      ><a href="#" class="em">Indian</a></span
+                    >
+                    <span class="cuisine"
+                      ><a href="#" class="em">German</a></span
+                    >
+                    <span class="cuisine"
+                      ><a href="#" class="em">Greek</a></span
+                    >
+                    <span class="cuisine"
+                      ><a href="#" class="em">Filipino</a></span
+                    >
+                    <span class="cuisine"
+                      ><a href="#" class="em">Japanese</a></span
+                    >
+                    <span class="cuisine"
+                      ><a href="#" class="em embold">VIEW ALL</a></span
+                    >
+                  </div>
+                </div>
+                <div class="first-link1">
+                  <a class="food-link sifl" href="#">KITCHEN TIPS</a>
+                  <div class="doi">
+                    <span class="kitchen-link"
+                      ><a href="#" class="em">Instant Pot</a></span
+                    >
+                    <span class="kitchen-link"
+                      ><a href="#" class="em">Air Fryer</a></span
+                    >
+                    <span class="kitchen-link"
+                      ><a href="#" class="em">Slow Cooker</a></span
+                    >
+                    <span class="kitchen-link"
+                      ><a href="#" class="em">Our Favorite Product</a></span
+                    >
+                    <span class="kitchen-link"
+                      ><a href="#" class="em">BBQ&Grilling</a></span
+                    >
+                    <span class="kitchen-link"
+                      ><a href="#" class="em">Cooking by Equipment</a></span
+                    >
+                    <span class="kitchen-link"
+                      ><a href="#" class="em"
+                        >Ingredients Substitutions</a
+                      ></span
+                    >
+                    <span class="kitchen-link"
+                      ><a href="#" class="em embold">VIEW ALL</a></span
+                    >
+                  </div>
+                </div>
+                <div class="first-link1">
+                  <a class="food-link sefl" href="#">NEWS</a>
+                  <div class="doi">
+                    <span class="news-link"
+                      ><a href="#" class="em">Celebrity&Entertainment</a></span
+                    >
+                    <span class="news-link"
+                      ><a href="#" class="em">Fast Food</a></span
+                    >
+                    <span class="news-link"
+                      ><a href="#" class="em">Grocery</a></span
+                    >
+                    <span class="news-link"
+                      ><a href="#" class="em">Recalls</a></span
+                    >
+                    <span class="news-link"
+                      ><a href="#" class="em">Trends</a></span
+                    >
+                    <span class="news-link"
+                      ><a href="#" class="em embold">VIEW ALL</a></span
+                    >
+                  </div>
+                </div>
+                <div class="first-link1">
+                  <a class="food-link efl" href="#">FEATURES</a>
+                  <div class="doi">
+                    <span class="feature-link"
+                      ><a href="#" class="em">Dinner Fix</a></span
+                    >
+                    <span class="feature-link"
+                      ><a href="#" class="em">Sweet Spot</a></span
+                    >
+                    <span class="feature-link"
+                      ><a href="#" class="em">In the Kitchen</a></span
+                    >
+                  </div>
+                </div>
+                <div class="first-link1">
+                  <a class="food-link nfl" href="#">ABOUT US</a>
+                  <div class="doi">
+                    <span class="about-link"
+                      ><a href="#" class="em">The Allrecipes Allstars</a></span
+                    >
+                    <span class="about-link"
+                      ><a href="#" class="em">How to Add a Recipe</a></span
+                    >
+                  </div>
+                </div>
+              </div>
+              <div class="idc">
+                <a class="get-mag" href="#">GET THE MAGAZINE</a>
+              </div>
             </div>
           </div>
         </div>
@@ -82,22 +318,30 @@
     <main>
       <section id="first-section">
         <div id="section1">
-          <a href="#" class="white-underline"
+          <a href="#" class="white-underline repose"
             >America's
             <span id="yellow"> #1 Trusted Recipe Resource</span> since 1997</a
           >
-          <a href="#" class="white-underline"
-            ><span class="bold-price">51K</span
-            ><span class="price-inline">Original Recipes</span></a
-          >
-          <a href="#" class="white-underline"
-            ><span class="bold-price">7M+</span
-            ><span class="price-inline">Ratings & Reviews</span></a
-          >
-          <a href="#" class="white-underline"
-            ><span class="bold-price">67M</span
-            ><span class="price-inline">Home Cooks</span></a
-          >
+          <div class="blue-container">
+            <div class="flow move1">
+              <a href="#" class="white-underline respond"
+                ><span class="bold-price">51K</span
+                ><span class="price-inline">Original Recipes</span></a
+              >
+            </div>
+            <div id="flows" class="flow">
+              <a href="#" class="white-underline respond"
+                ><span class="bold-price flow">7M+</span
+                ><span class="price-inline">Ratings & Reviews</span></a
+              >
+            </div>
+            <div class="flow move">
+              <a href="#" class="white-underline respond"
+                ><span class="bold-price left-price">67M</span
+                ><span class="price-inline">Home Cooks</span></a
+              >
+            </div>
+          </div>
         </div>
         <div id="image-section">
           <div id="left">
@@ -118,8 +362,8 @@
               <span id="para"
                 >For the 2025 edition of Allrecipes' Golden Cart Awards, our
                 editors and Allstars tested every new grocery find that
-                <br />came out in 2024 and figured out what's worth buying right
-                now.</span
+                <br class="line-break" />came out in 2024 and figured out what's
+                worth buying right now.</span
               >
             </a>
           </div>
@@ -140,7 +384,7 @@
                 >
                 <a href="#" class="underline"
                   ><span class="bold"
-                    >The Best Way to Split a Restaurant<br />
+                    >The Best Way to Split a Restaurant<br class="line-break" />
                     Check,According to Etiquette<br />
                     Experts</span
                   ></a
@@ -162,7 +406,7 @@
                 >
                 <a href="#" class="underline"
                   ><span class="bold"
-                    >Wendy's Just Released a New <br />
+                    >Wendy's Just Released a New <br class="line-break" />
                     Burger That Has Our Jaws on the <br />
                     Floor</span
                   ></a
@@ -184,7 +428,7 @@
                 >
                 <a href="#" class="underline"
                   ><span class="bold"
-                    >Wendy's Just Released a New <br />
+                    >Wendy's Just Released a New <br class="line-break" />
                     Burger That Has Our Jaws on the <br />
                     Floor</span
                   ></a
@@ -206,7 +450,7 @@
                 >
                 <a href="#" class="underline"
                   ><span class="bold"
-                    >Wendy's Just Released a New <br />
+                    >Wendy's Just Released a New <br class="line-break" />
                     Burger That Has Our Jaws on the <br />
                     Floor</span
                   ></a
@@ -228,7 +472,7 @@
                 >
                 <a href="#" class="underline"
                   ><span class="bold"
-                    >Wendy's Just Released a New <br />
+                    >Wendy's Just Released a New <br class="line-break" />
                     Burger That Has Our Jaws on the <br />
                     Floor</span
                   ></a
@@ -248,10 +492,11 @@
               <h2 id="grid-header">Trending Now</h2>
               <hr id="two" />
             </div>
+
             <div class="inline-grid">
               <div class="grid-left">
                 <img
-                  class="image2"
+                  class="image2 mobile-image2"
                   src="https://www.allrecipes.com/thmb/NDu8Y9oVH5WQM4xQDurG0FObO78=/400x264/filters:no_upscale():max_bytes(150000):strip_icc()/8551629-BangBangPotatoes_DDMFS_45-4x3-e8321c7e22cb4fa698de74aaaab364bd.jpg"
                   alt="second-image"
                 />
@@ -260,10 +505,10 @@
                 <span class="small2"
                   >HOW TO&nbsp; <span>| &nbsp;53 MINUTES AGO</span></span
                 >
-                <a href="#" class="underline"
-                  ><span class="bold2"
-                    >The Best Way to Split a Restaurant<br />
-                    Check,According to Etiquette<br />
+                <a href="#" class="underline i-d-k"
+                  ><span class="bold2 mobile-bold2"
+                    >The Best Way to Split a Restaurant<br class="line-break" />
+                    Check,According to Etiquette<br class="line-break" />
                     Experts</span
                   ></a
                 >
@@ -272,7 +517,7 @@
             <div class="inline-grid">
               <div class="grid-left">
                 <img
-                  class="image2"
+                  class="image2 mobile-image2"
                   src="https://www.allrecipes.com/thmb/cqbRFyzNWQDADxDPDhrm7YYx_wI=/400x264/filters:no_upscale():max_bytes(150000):strip_icc()/9129307_PrincesstrtaSwedishPrincessCake4x3-c6f96752d0ba42769f7b6049a61e31aa.jpg"
                   alt="second-image"
                 />
@@ -282,7 +527,7 @@
                   >FAST FOOD&nbsp; <span>| &nbsp;1 HOUR AGO</span></span
                 >
                 <a href="#" class="underline"
-                  ><span class="bold2"
+                  ><span class="bold2 mobile-bold2"
                     >Wendy's Just Released a New <br />
                     Burger That Has Our Jaws on the <br />
                     Floor</span
@@ -290,10 +535,10 @@
                 >
               </div>
             </div>
-            <div class="inline-grid">
+            <div class="inline-grid food">
               <div class="grid-left">
                 <img
-                  class="image2"
+                  class="image2 mobile-image2"
                   src="https://www.allrecipes.com/thmb/IMwqGNx1iIal_P4wl4YLst8sVdI=/400x264/filters:no_upscale():max_bytes(150000):strip_icc()/9090-chess-pie-ddmfs-hero-4x3-1644-30b5e1fc032f445e8eaa3e1e4a0d5ca5.jpeg"
                   alt="second-image"
                 />
@@ -301,7 +546,7 @@
               <div class="grid-right">
                 <span class="small2">FOOD NEWS AND TREND</span>
                 <a href="#" class="underline"
-                  ><span class="bold2"
+                  ><span class="bold2 mobile-bold2"
                     >Wendy's Just Released a New <br />
                     Burger That Has Our Jaws on the <br />
                     Floor</span
@@ -309,10 +554,10 @@
                 >
               </div>
             </div>
-            <div class="inline-grid">
+            <div class="inline-grid food">
               <div class="grid-left">
                 <img
-                  class="image2"
+                  class="image2 mobile-image2"
                   src="https://www.allrecipes.com/thmb/LDZWxEACxXRW3_P4MvPPTO5sQ-w=/400x264/filters:no_upscale():max_bytes(150000):strip_icc()/alr-editor-tools-to-save-time-in-the-kitchen-tout-dc458769e5d2483aa3a4e5350bd458ba.jpg"
                   alt="second-image"
                 />
@@ -320,7 +565,7 @@
               <div class="grid-right">
                 <span class="small2">BAKING</span>
                 <a href="#" class="underline"
-                  ><span class="bold2"
+                  ><span class="bold2 mobile-bold2"
                     >The Vintage Swedish Cake Recipe <br />Everyone's Talking
                     About</span
                   ></a
@@ -355,12 +600,12 @@
                 >
               </a>
             </div>
-            <div class="grid2-two">
+            <div class="grid2-two grid-space">
               <a href="#" class="salad-link">
                 <figure>
                   <img
                     src="https://www.allrecipes.com/thmb/qLKZG8XW-GfwinGijKuJxdltM8U=/364x242/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/1282511_Awesome-Pasta-Salad-4x3-1-dbadb96d49594a05b148175acebfc20c.jpg"
-                    class="salad-image"
+                    class="salad-image salad-margin"
                   />
                   <i class="fa fa-heart image-heart"></i>
                   <figcaption class="salad-small">
@@ -375,12 +620,12 @@
                 >
               </a>
             </div>
-            <div class="grid2-three">
+            <div class="grid2-three grid-space">
               <a href="#" class="salad-link">
                 <figure>
                   <img
                     src="https://www.allrecipes.com/thmb/AP-_fXflrN50lrMvnvUgIeLLZtg=/364x242/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/86662_Worlds-Best-Potato-Salad_ddmfs_4x3_0984-c6a9a6eb6b30483b8f8caa731ea77d61.jpg"
-                    class="salad-image"
+                    class="salad-image salad-margin"
                   />
                   <i class="fa fa-heart image-heart"></i>
                   <figcaption class="salad-small">
@@ -395,12 +640,12 @@
                 >
               </a>
             </div>
-            <div id="grid2-four">
+            <div id="grid2-four" class="grid-space">
               <a href="#" class="salad-link">
                 <figure>
                   <img
                     src="https://www.allrecipes.com/thmb/KyiJ1jV65CVWekuItcqoJhhizAE=/364x242/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/878056_Classic-Macaroni-Salad-4x3-1-2000-ade81d04aca74d889f4dac53bd58432c.jpg"
-                    class="salad-image"
+                    class="salad-image salad-margin"
                   />
                   <i class="fa fa-heart image-heart"></i>
                   <figcaption class="salad-small">PASTA SALAD</figcaption>
@@ -413,12 +658,12 @@
               </a>
             </div>
 
-            <div id="grid2-five">
+            <div id="grid2-five" class="grid-space">
               <a href="#" class="salad-link">
                 <figure>
                   <img
                     src="https://www.allrecipes.com/thmb/rrGbmiI4qZt9EMkUpqKSfwyoIg0=/364x242/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/238423-dads-creamy-cucumber-salad-DDMFS-4x3-36063371e89e463d91c5282ae0873779.jpg"
-                    class="salad-image"
+                    class="salad-image salad-margin"
                   />
                   <i class="fa fa-heart image-heart"></i>
                   <figcaption class="salad-small">
@@ -432,12 +677,12 @@
                 >
               </a>
             </div>
-            <div id="grid2-six">
+            <div id="grid2-six" class="grid-space">
               <a href="#" class="salad-link">
                 <figure>
                   <img
                     src="https://www.allrecipes.com/thmb/wIIiFpLPKopxd3TirFElWqpZbKA=/364x242/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/410873_Judys-Strawberry-Pretzel-Salad-4x3-758ada2d0d794541b04d4ff9bad788ee.jpg"
-                    class="salad-image"
+                    class="salad-image salad-margin"
                   />
                   <i class="fa fa-heart image-heart"></i>
                   <figcaption class="salad-small">JELL-O SALAD</figcaption>
@@ -458,7 +703,7 @@
                 <span id="span-like">&#x1f468;&#x200d;&#x1f373;</span> What
                 would you like to cook?
               </h2>
-              <label class="search2"
+              <label id="input-width" class="search2 search-mobile"
                 ><input type="search" placeholder="Search here..." /><i
                   class="fa fa-search"
                 ></i
@@ -490,8 +735,8 @@
         <div id="first-advert">
           <div id="home-cook-container">
             <div id="home-cook-left">
-              <h2 class="home-cook-header hch">home of the home cook</h2>
-              <p class="hch">
+              <h2 class="home-cook-header hch hch1">home of the home cook</h2>
+              <p class="hch hch2">
                 We Know our community(that's you!) is the key ingredient<br />
                 that sets us apart.<span class="home-cook-bold"
                   ><a href="#" class="home-cook-link lm"
@@ -508,8 +753,8 @@
                 <div id="image2-flex">
                   <h4 id="h4"><a href="#">Chicken Biryani</a></h4>
                   <q
-                    >"Quick, easy, better than take out. Lightly sauced.
-                    <br />Every bite was delicious."</q
+                    >Quick, easy, better than take out. Lightly sauced.
+                    <br />Every bite was delicious.</q
                   >
                   <h5><a href="#">MASSIMO SACCOMANDO,QUEBEC,JOINED 2020</a></h5>
                 </div>
@@ -539,7 +784,7 @@
             </div>
             <div id="home-cook-right">
               <h2 class="home-cook-header">our people</h2>
-              <p>
+              <p class="hch">
                 Testing, tasting, editing, and tasting again—our food pros
                 are<br />
                 dedicated to showcasing the best of what you, our home cook<br />
@@ -581,7 +826,7 @@
                   <a href="#" class="home-cook-link"
                     >CONTRIBUTORS<i class="fa fa-arrow-right arrow"></i
                   ></a>
-                  <div>
+                  <div id="responsive-image">
                     <img
                       class="thumb2"
                       alt="image"
@@ -639,9 +884,10 @@
                   <span class="recipes2">RECIPES</span>
                   <span class="take">Take it Outside</span>
                   <span class="fire"
-                    >Fire the cue and try the best grilled chickens,<br />ribs,and
-                    burger recipes,plus marinades,rubs and <br />dipping
-                    sauces.</span
+                    >Fire the cue and try the best grilled chickens,<br
+                      class="line-break"
+                    />ribs,and burger recipes,plus marinades,rubs and
+                    <br class="line-break" />dipping sauces.</span
                   >
                 </span>
               </span>
@@ -748,6 +994,7 @@
             </div>
             <div class="image-planning-right">
               <img
+                class="design"
                 alt="planning image"
                 src="https://tpc.googlesyndication.com/daca_images/simgad/13542125923033425204"
               />
@@ -815,8 +1062,9 @@
                 <img
                   src="https://www.allrecipes.com/thmb/6zaW8vW6G_gVUtyoqT75MBKOdRs=/771x514/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/6768792-1-2000-2663e13fc0424621bdb0eae91b58eda6.jpg"
                   alt="image"
+                  class="real respond-real mobile-real"
                 />
-                <figcaption class="salad-small">MEMORIAL DAY</figcaption>
+                <figcaption class="salad-small memory">MEMORIAL DAY</figcaption>
               </figure>
               <span id="fs-bold-2"
                 >A Day's Worth of Patriotic Recipes for Memorial Day</span
@@ -829,8 +1077,10 @@
       <section id="sixth-section">
         <div class="advert-middle">
           <img
+            style="display: none"
             src="https://tpc.googlesyndication.com/simgad/14974371150548223109"
             alt="advert"
+            class="ad2"
           />
           <h2 class="salad-header">
             <a href="#" class="salad-link"
@@ -858,7 +1108,7 @@
                   >
                 </a>
               </div>
-              <div class="grid2-two">
+              <div class="grid2-two grid-space">
                 <a href="#" class="salad-link">
                   <figure>
                     <img
@@ -871,7 +1121,7 @@
                   <span class="salad-bold">Coffee Panna Cotta</span>
                 </a>
               </div>
-              <div class="grid2-three">
+              <div class="grid2-three grid-space">
                 <a href="#" class="salad-link">
                   <figure>
                     <img
@@ -891,7 +1141,7 @@
                   >
                 </a>
               </div>
-              <div class="grid2-four">
+              <div class="grid2-four grid-space">
                 <a href="#" class="salad-link">
                   <figure>
                     <img
@@ -911,7 +1161,7 @@
                 </a>
               </div>
 
-              <div class="grid2-five">
+              <div class="grid2-five grid-space">
                 <a href="#" class="salad-link">
                   <figure>
                     <img
@@ -930,7 +1180,7 @@
                   >
                 </a>
               </div>
-              <div class="grid2-six">
+              <div class="grid2-six grid-space">
                 <a href="#" class="salad-link">
                   <figure>
                     <img
@@ -952,6 +1202,7 @@
       <section id="outside-image2">
         <div class="advert-middle">
           <img
+            class="ad1"
             src="https://s.adroll.com/a/GM7/FST/GM7FSTUUXVGXNHSQABKFQI.png"
             alt="advert"
           />
@@ -1089,6 +1340,7 @@
           <img
             src="https://s.adroll.com/a/GM7/FST/GM7FSTUUXVGXNHSQABKFQI.png"
             alt="advert"
+            class="ad1"
           />
         </div>
       </section>
@@ -1142,7 +1394,6 @@
                 <small><a href="#">Terms of Service</a></small>
                 <small><a href="#">Careers</a></small>
                 <img
-                  alt="footer-image"
                   src="https://privacy-policy.truste.com/privacy-seal/seal?rid=7c04f997-515d-4179-a53b-1ccbee37bd62"
                   alt="footer-image"
                 />

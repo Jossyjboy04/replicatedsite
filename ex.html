@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        summary{
+            list-style-type:none;
+        }
+summary::after{
+    content:"X";
+}
+details[open] summary::after{
+    content:"Y";
+}
+    </style>
+</head>
+<body>
+    <details>
+        <summary></summary>
+        <a href="http://">home</a>
+         <a href="http://">about</a>
+    </details>
+</body>
+</html>
