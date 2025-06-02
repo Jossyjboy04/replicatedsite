@@ -14,26 +14,11 @@
   #input-width {
     width: 90%;
   }
-  #input {
-    display: none;
-  }
+  
   summary {
     list-style-type: none;
   }
-  summary::before {
-    content: "\2630";
-
-    font-size: 32px;
-    cursor: pointer;
-    display: inline;
-  }
-  details[open] summary::before {
-    display: inline;
-    position: relative;
-    content: "X";
-
-    font-size: 32px;
-  }
+  
   .a {
     display: flex;
     position: absolute;
@@ -355,11 +340,11 @@
   }
   #footer-flex-three {
     margin-top: -30px;
-    margin-left: -80px;
+    margin-left: -80px; 
   }
 }
 /*responsive design for mobile device*/
-@media only screen and (max-width: 575px) {
+@media (max-width: 575px) {
   .container {
     display: none;
   }
@@ -396,23 +381,7 @@
     height: auto;
   }
 
-  summary {
-    list-style-type: none;
-  }
-  summary::before {
-    content: "\2630";
-
-    font-size: 20px;
-    cursor: pointer;
-    display: inline;
-  }
-  details[open] summary::before {
-    display: inline;
-    position: relative;
-    content: "X";
-
-    font-size: 20px;
-  }
+  
   .a {
     display: flex;
     position: absolute;
