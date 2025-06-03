@@ -249,12 +249,12 @@ i[class~="fa-heart"] {
   color: magenta;
   font-size: 18px;
 }
-#my {
+.my {
   color: magenta;
   font-weight: 1000;
   font-size: 18px;
 }
-#recipes {
+.recipes {
   color: black;
   font-weight: 1000;
   font-size: 18px;
@@ -1055,28 +1055,28 @@ h3 i {
   border: solid orangered;
 }
 
-#xx {
+.xx {
   margin-top: 20px;
   margin-left: 10px;
   position: relative;
   right: 40px;
 }
-#facebook:hover {
+.facebook:hover {
   color: blue;
 }
-#instagram:hover {
+.instagram:hover {
   color: magenta;
 }
-#pinterest:hover {
+.pinterest:hover {
   color: orangered;
 }
-#whatsapp:hover {
+.whatsapp:hover {
   color: cyan;
 }
-#youtube:hover {
+.youtube:hover {
   color: red;
 }
-#linkedIn:hover {
+.linkedIn:hover {
   color: red;
 }
 .footer-link:hover {
